@@ -89,7 +89,8 @@ class _FormFidelePageState extends State<FormFidelePage> {
     );
   }
   Widget _iconApp() {
-    return Ink(
+    return InkWell(
+      onTap : () {},
       child: Icon(
         Icons.home,
         size: 60,
